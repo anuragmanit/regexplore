@@ -1,5 +1,7 @@
 <mat-form-field class="example-full-width">
-  <input matInput placeholder="enter your regex here" [(ngModel)]="regexInput">
+  <div  class="smart-field" id="search">
+    <textarea id="searchText" matInput placeholder="enter your regex here" [(ngModel)]="regexInput">
+  </textarea>
+  </div>
 </mat-form-field>
 
-{{regexInput}}
